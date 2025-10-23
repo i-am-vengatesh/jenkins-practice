@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('God') {
+            steps {
+                echo 'God is Always Great!'
+            }
+        }
+    }
+}
